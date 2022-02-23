@@ -1,5 +1,5 @@
-var ConcentrationCamps = L.map('ConcentrationCamps').setView([39.75621,-104.99404], 6);
-//var ConcentrationCamps = L.map('ConcentrationCamps).setView([43.8,87.6], 6);
+var ConcentrationCamps = L.map('ConcentrationCamps').setView([43.8,87.6], 10);
+
 
 
 // load a tile layer
@@ -7,7 +7,7 @@ var ConcentrationCamps = L.map('ConcentrationCamps').setView([39.75621,-104.9940
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	subdomains: 'abcd',
 	minZoom: 10,
-	maxZoom: 20,
+	maxZoom: 500,
 	ext: 'png'
 }).addTo(ConcentrationCamps);
 
