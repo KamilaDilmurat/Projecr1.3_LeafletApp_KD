@@ -11,12 +11,6 @@ var map = L.map('mapid').setView([43.88,81.31], 11);
 	ext: 'png'
 }).addTo(map);
 
-//L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-	//attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-//}).addTo(map);
-
-
-
 var geojsonFeature = {
   "type": "FeatureCollection",
   "features": [
