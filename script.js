@@ -1,4 +1,5 @@
-var ConcentrationCamps = L.map('ConcentrationCamps).setView([43.8,87.6], 6);
+var ConcentrationCamps = L.map('ConcentrationCamps').setView([39.75621,-104.99404], 6);
+//var ConcentrationCamps = L.map('ConcentrationCamps).setView([43.8,87.6], 6);
 
 
 // load a tile layer
