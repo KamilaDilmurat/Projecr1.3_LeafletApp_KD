@@ -1,4 +1,4 @@
-var Denverfood = L.map('Denverfood').setView([39.75621,-104.99404], 6);
+var ConcentrationCamps = L.map('ConcentrationCamps).setView([43.8,87.6], 6);
 
 
 // load a tile layer
@@ -8,14 +8,14 @@ var Denverfood = L.map('Denverfood').setView([39.75621,-104.99404], 6);
 	minZoom: 10,
 	maxZoom: 20,
 	ext: 'png'
-}).addTo(Denverfood);
+}).addTo(ConcentrationCamps);
 
 
-var marker1 = L.marker([39.753, -105.053]).addTo(Denverfood);
-var marker2 = L.marker([39.741, -104.977]).addTo(Denverfood);
-var marker3 = L.marker([39.762, -105.030]).addTo(Denverfood);
-var marker4 = L.marker([39.743, -104.990]).addTo(Denverfood);
-var marker5 = L.marker([39.745, -104.992]).addTo(Denverfood);
+var marker1 = L.marker([39.753, -105.053]).addTo(ConcentrationCamps);
+var marker2 = L.marker([39.741, -104.977]).addTo(ConcentrationCamps);
+var marker3 = L.marker([39.762, -105.030]).addTo(ConcentrationCamps);
+var marker4 = L.marker([39.743, -104.990]).addTo(ConcentrationCamps);
+var marker5 = L.marker([39.745, -104.992]).addTo(ConcentrationCamps);
 
 
 marker1.bindPopup("<b>Resturant 1</b><br>US Thai Cafe").openPopup();
